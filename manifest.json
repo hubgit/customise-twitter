@@ -1,0 +1,9 @@
+{
+    "manifest_version": 2,
+    "name": "Customise Twitter",
+    "version": "0.0.1",
+    "content_scripts": [{
+        "matches": ["https://twitter.com/*"],
+        "css": ["styles.css"]
+    }]
+}
